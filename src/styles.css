@@ -9,6 +9,53 @@
 body {
   /* background: #333; */
 }
+/* General styles for the navigation */
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.navigation li {
+  flex-shrink: 0;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.875rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+.navigation a.active {
+  background-color: #007BFF;
+  color: #fff;
+}
+
 
 .container {
   max-width: 1200px;
