@@ -79,6 +79,7 @@ body {
 }
 
 .menu {
+  margin-top: 1em;
   font-family: sans-serif;
   font-size: 14px;
 }
