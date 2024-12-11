@@ -56,13 +56,45 @@ body {
   color: #fff;
 }
 
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.5em;
 }
 
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.language_container {
+  align-self: flex-end;
+  display: flex;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.language {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.language a:hover,
+.language a:focus {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+.language a.active {
+  background-color: #007BFF;
+  color: #fff;
+}
 .addition {
   font-weight: bold;
 }
