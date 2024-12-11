@@ -70,7 +70,6 @@ body {
 }
 
 .language_container {
-  align-self: flex-end;
   display: flex;
   text-decoration: none;
   color: #333;
@@ -85,16 +84,6 @@ body {
   margin-left: 0.5em;
 }
 
-.language a:hover,
-.language a:focus {
-  background-color: #f4f4f4;
-  color: #000;
-}
-
-.language a.active {
-  background-color: #007BFF;
-  color: #fff;
-}
 .addition {
   font-weight: bold;
 }
@@ -159,6 +148,20 @@ body {
   line-height: 1.6;
 }
 
+.drink-group li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  font-size: 16px;
+}
+
+.drink-item-name {
+  margin-right: 1.5em;
+}
+
+.drink-item-price {
+  font-weight: bold;
+}
 @media screen and (min-width: 992px) {
   .menu {
     font-size: 16px;
