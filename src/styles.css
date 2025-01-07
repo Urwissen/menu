@@ -148,6 +148,10 @@ body {
   line-height: 1.6;
 }
 
+.drink-item-desc {
+  font-weight: lighter;
+  line-height: 1.6;
+}
 .drink-group li {
   display: flex;
   justify-content: space-between;
@@ -161,6 +165,7 @@ body {
 
 .drink-item-price {
   font-weight: bold;
+  white-space: nowrap;
 }
 @media screen and (min-width: 992px) {
   .menu {
