@@ -9,6 +9,25 @@
 body {
   /* background: #333; */
 }
+/* unvisited link */
+a:link {
+  color: rgb(15, 15, 15);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(109, 109, 109);
+}
+
+/* mouse over link */
+a:hover {
+  color: #f82757;
+}
+
+/* selected link */
+a:active {
+  color: #f82757;
+}
 /* General styles for the navigation */
 .navigation {
   position: sticky;
@@ -140,17 +159,24 @@ body {
   margin: 0;
 }
 
+.menu-item-variant {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
 .menu-item-name {
   margin-right: 1.15em;
 }
 
 .menu-item-desc {
   line-height: 1.6;
+  opacity: 0.5;
 }
 
 .drink-item-desc {
   font-weight: lighter;
   line-height: 1.6;
+  opacity: 0.5;
 }
 .drink-group li {
   display: flex;
@@ -159,6 +185,9 @@ body {
   font-size: 16px;
 }
 
+.drink-group-sub-title {
+  margin-top: 2em;
+}
 .drink-item-name {
   margin-right: 1.5em;
 }
