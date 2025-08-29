@@ -270,6 +270,13 @@ a:active {
   color: #69C9EF;
 }
 
+.fa-linktree:hover {
+  color: #39b54a;
+}
+
+footer {
+  opacity: 0.7;
+}
 @media screen and (min-width: 992px) {
   .menu {
     font-size: 16px;
