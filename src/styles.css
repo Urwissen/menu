@@ -250,6 +250,26 @@ a:active {
   white-space: nowrap;
 }
 
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-tripadvisor:hover {
+  color: #239c18;
+}
+
+.fa-yandex:hover {
+  color: #cebf13;
+}
+
+.fa-instagram:hover {
+  color: #C13584;
+}
+
+.fa-tiktok:hover {
+  color: #69C9EF;
+}
+
 @media screen and (min-width: 992px) {
   .menu {
     font-size: 16px;
