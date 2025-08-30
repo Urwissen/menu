@@ -218,13 +218,13 @@ a:active {
 
 .menu-item-desc {
   line-height: 1.6;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .drink-item-desc {
   font-weight: lighter;
   line-height: 1.6;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .drink-group li {
   display: flex;
