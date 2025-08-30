@@ -1,0 +1,9 @@
+# robots.txt for Nilo Bar Cafe Restaurant Tbilisi
+
+User-agent: *
+Allow: /
+
+Disallow: /css/
+Disallow: /assets/
+
+Sitemap: http://urwissen.github.io/sitemap.xml
