@@ -171,6 +171,10 @@ a:active {
   font-size: 14px;
 }
 
+a.info {
+  color: #111111;
+  font-weight: bold;
+}
 .menu-group-heading {
   margin: 0;
   padding-bottom: 1em;
