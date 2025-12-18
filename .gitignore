@@ -1,0 +1,25 @@
+# Dependency directory
+node_modules/
+# Python virtual environments
+.venv/
+env/
+
+# Compiled files
+*.pyc
+*.class
+/target
+/build
+/dist
+
+# Logs and temporary files
+*.log
+*.tmp
+.cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
